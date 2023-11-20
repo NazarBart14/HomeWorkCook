@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin-bottom: 10px;    
+}
+
+header h1 span {
+    margin: 0;
+    color: #FCC647;
+}
+
+nav {
+    text-align: right;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 60px; 
+}
+
+nav a:last-child {
+    margin-right: 0; 
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+    color: #FCC647;
+}
+
+main {
+    padding: 20px;
+    background: #FFFBF3;
+}
+
+.hero {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: #FFFBF3;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.hero_content {
+    max-width: 50%; 
+}
+
+.hero img {
+    max-width: 40%; 
+    border-radius: 20px; 
+    margin-top: 20px;
+}
+
+.hero h1 {
+    margin-bottom: 10px; 
+}
+
+.hero h1 span {
+    margin: 0;
+    color: #FCC647;
+}
+
+.hero p {
+    margin-top: 10px; 
+}
+
+.hero h4 {
+    margin: 0; 
+    color: #FCC647;
+}
+
+.hero button, p {
+    margin: 0; 
+}
+
+.hero button {
+    margin-top: 10px; 
+}
+
+.button_container {
+    display: flex; 
+    gap: 10px; 
+}
+
+button {
+    color: #000;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #FCC647;
+}
+
+button.transparent {
+    background-color: transparent;
+    border: 1px solid #FCC647;
+}
+
+button.transparent:hover {
+    background-color: transparent;
+    color: #FCC647;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+  
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+  
+th {
+    background-color: #f2f2f2;
+}
+  
+img {
+    max-width: 100%;
+    height: 200px;
+}
+
+.item_container {
+    text-align: left;
+    padding: 10px;
+}
+
+.item_container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.additional_info {
+    margin-top: 10px;
+}
+
+.additional_info img {
+    max-width: 100%;
+    height: auto;
+}
+
+.additional_info a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    margin-top: 10px;
+}
