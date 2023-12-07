@@ -198,3 +198,98 @@ img {
     float: right;
     margin-right: 10px;
 }
+
+
+footer {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#emailInput {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: border 0.3s; 
+}
+
+#subscribeButton {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #FCC647;
+    color: #fff;
+}
+
+#subscribeButton:hover {
+    background-color: #000;
+}
+
+#emailInput.valid {
+    border: 2px solid #00FF00;
+}
+
+#emailInput.invalid {
+    border: 2px solid #FF0000;
+}
+
+@media screen and (max-width: 938px) {
+    
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    .hero img {
+        max-width: 80%;
+        margin-top: 20px;
+    }
+
+    .hero_content {
+        max-width: 80%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+   
+    header {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .hero img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav {
+        margin-top: 5px;
+    }
+
+    nav a {
+        margin-right: 30px;
+    }
+
+    .item_container {
+        padding: 5px;
+    }
+}
